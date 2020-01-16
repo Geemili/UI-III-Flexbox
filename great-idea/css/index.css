@@ -123,6 +123,11 @@ h1 {
     font-size: 88px;
 }
 
+h2 {
+    margin-top: 25px;
+    font-size: 28px;
+}
+
 .slogan-section a {
     color: grey;
     border: 1px solid grey;
