@@ -199,8 +199,26 @@ h1 {
 
 /* Style elements at the end */
 
+.some-facts {
+    margin-top: 30px;
+}
+
+ul {
+    margin-top: 30px;
+    list-style: inside square;
+}
+
+li {
+    padding: 8px 0;
+}
 
 /* Style footer */
+
+footer.services {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
 footer {
     margin: 40px 0;
