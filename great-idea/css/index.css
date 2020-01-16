@@ -133,12 +133,12 @@ h1 {
 
 /* Style the first group of sections */
 
-#group-one {
+.two-columns {
     display: flex;
     justify-content: space-between;
 }
 
-#group-one section {
+.two-columns .column {
     width: 49%;
 }
 
@@ -196,6 +196,9 @@ h1 {
 .service-link a:hover {
     background-color: lightgrey;
 }
+
+/* Style elements at the end */
+
 
 /* Style footer */
 
