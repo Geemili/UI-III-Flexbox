@@ -84,13 +84,14 @@ nav {
     justify-content: space-around;
 }
 
-nav .link {
+.link {
     z-index: 10;
     display: flex;
     align-items: center;
+    padding: 0 10px;
 }
 
-nav .link:hover {
+.link:hover {
     background-color: lightgray;
 }
 
@@ -99,13 +100,13 @@ nav .link:hover {
     text-decoration: none;
 }
 
-nav img {
+.logo {
     object-fit: contain;
 }
 
 /* header styling */
 
-header {
+header.index {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -122,6 +123,13 @@ h1 {
     border: 1px solid grey;
     padding: 0 30px;
 }
+
+/* Services header css */
+
+.services-header-image {
+    width: 100%;
+}
+
 
 /* Style the first group of sections */
 
@@ -167,3 +175,4 @@ address {
 #copyright {
     text-align: center;
 }
+
