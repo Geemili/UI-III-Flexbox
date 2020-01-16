@@ -108,6 +108,7 @@ nav {
 
 header {
     margin-top: 70px;
+    margin-bottom: 30px;
 }
 
 /* header styling */
@@ -142,6 +143,10 @@ h2 {
 
 
 /* Style the first group of sections */
+
+#group-one {
+    margin-top: 40px;
+}
 
 .two-columns {
     display: flex;
