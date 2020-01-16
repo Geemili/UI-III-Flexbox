@@ -160,6 +160,12 @@ h2 {
     margin-bottom: 35px;
 }
 
+/* Horizonal lines */
+
+hr {
+    border: 1px solid black;
+}
+
 /* Style the second group of sections */
 
 #group-two {
