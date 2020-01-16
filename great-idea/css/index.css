@@ -86,8 +86,6 @@ nav {
 
 .link {
     z-index: 10;
-    display: flex;
-    align-items: center;
     padding: 0 10px;
 }
 
@@ -100,8 +98,16 @@ nav {
     text-decoration: none;
 }
 
+.fullheight {
+    height: 100%;
+}
+
 .logo {
     object-fit: contain;
+}
+
+header {
+    margin-top: 70px;
 }
 
 /* header styling */
@@ -111,7 +117,6 @@ header.index {
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    margin-top: 70px;
 }
 
 h1 {
@@ -214,9 +219,10 @@ li {
 
 /* Style footer */
 
-footer.services {
+.center {
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
