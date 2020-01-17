@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 
 .content {
     width: 95%;
+    max-width: 1000px;
     margin: 50px auto;
 }
 
